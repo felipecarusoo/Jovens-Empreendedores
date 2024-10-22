@@ -1,2 +1,0 @@
-# Jovens Empreendedores
- 
