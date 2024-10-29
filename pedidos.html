@@ -5,3 +5,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="shortcut icon "href="../img/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="../styles/pedidos.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+</head> 
+
+<body>
+    <header class="cabecalho">
+        <div class="menu-div">
+            <img src="../img/seedpr.png" alt="seedpr" class="cabecalho-imagem">
+            <button class="nav-button" onclick="openNav()">
+                <i class="fa-solid fa-bars fa-2x" tabindex="7"></i>
+            </button>
+        </div>
+
+        <h1 class="titulo">Doçura de vida Confectionary</h1>
+
+        <nav class="cabecalho-nav">
+            <ul class="lista-cabecalho">
+                <li><a href="../../index.html">RECIPES</a></li>
+                <li class="none"><a href="pedido.html">ORDERS</a></li>
+                <li><a href="avaliacao.html">REVIEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="../../index.html" onclick="closeNav()">RECIPES</a>
+            <a href="pedido.html" onclick="closeNav()">ORDERS</a>
+            <a href="avaliacao.html" onclick="closeNav()">REVIEWS</a>
+        </div>
+    </div>
+</div>
