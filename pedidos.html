@@ -40,4 +40,43 @@
             <a href="avaliacao.html" onclick="closeNav()">REVIEWS</a>
         </div>
     </div>
+</div>class="main">
+<h1 class="titulo-container">Shopping Cart</h1>
+
+<form action="https://formsubmit.co/moura.tamires@escola.pr.gov.br" method="POST" id="pedido-form">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://felipecarusoo.github.io/feiraVendaDoceEmpreendedorismo/">
+
+    <label for="name">Your name:</label>
+    <input type="text" name="name" id="name" required>
+
+    <label for="email">Your email:</label>
+    <input type="email" name="email" id="email" required>    
+    <label for="produto">Select the product:</label>
+    <div class="div-produto-avaliacao">
+        <button type="button" class="btn-produto-avaliacao" id="imgBrigadeiro">
+            <img src="../img/brigadeiro-btn.png" alt="" class="img-produto-avaliacao">
+        </button>
+        <button type="button" class="btn-produto-avaliacao" id="imgCupcake">
+            <img src="../img/cupcake-btn.png" alt="" class="img-produto-avaliacao">
+        </button>
+        <button type="button" class="btn-produto-avaliacao" id="imgBrownie">
+            <img src="../img/brownie-btn.png" alt="" class="img-produto-avaliacao">
+        </button>
+    </div>
+    
+            
+    <label for="pedido">Cart:</label>
+    <textarea name="message" id="pedido" rows="4" required readonly></textarea>
+
+    <label for="total">Total value:</label>
+    <input type="text" name="total" id="total" readonly>
+
+    <button type="button" class="btn-clear">Clear cart</button>
+
+    <button type="submit" class="btn-submit" id="submit-button">Submit order</button>
+</form>
+<div id="thank-you-message" style="display: none;">Thank you for your order!</div>
 </div>
+<script src="../js/menu.js"></script>
+<script src="-
